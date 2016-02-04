@@ -597,6 +597,7 @@ public class LogicalExpressionDemo implements LogicalExpression {
 	public static void main(String[] args) {
 		
 		//should print out same results as the script based evaluation for demo2
+		//can test De Morgan's law for cases
 		LogicalExpressionDemo demo = new LogicalExpressionDemo("(A|B)|~(A|B)");
 		
 		demo.test();
