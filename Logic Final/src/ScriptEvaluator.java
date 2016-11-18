@@ -9,7 +9,7 @@ public class ScriptEvaluator {
 		String boolexpr2 = "false||true&&!false";
 
 		boolean result = false;
-		
+
 		try {
 			result = (Boolean) new ScriptEngineManager().getEngineByName("javascript").eval(boolexpr2);
 		} catch (ScriptException e) {
